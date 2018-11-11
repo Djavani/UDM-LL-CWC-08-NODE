@@ -1,0 +1,24 @@
+console.log(module.exports === this);
+
+console.log(module.exports === exports);
+
+this.a = 1
+
+exports.b = 2
+
+module.exports.c = 3
+
+console.log(module.exports);
+
+//desta forma nao muda a referencia 
+exports = {
+    nome: 'Teste'
+}
+
+
+console.log(module.exports);
+
+
+module.exports = {
+    nome: 'Teste'
+}
