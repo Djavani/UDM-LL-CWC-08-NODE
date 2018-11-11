@@ -1,0 +1,1 @@
+this.ola2 = 'Texto dentro do arquivo indexJs de pastaC'
